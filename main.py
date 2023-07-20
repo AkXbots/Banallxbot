@@ -27,7 +27,7 @@ logging.basicConfig(
 )
 API_ID = 18202635
 API_HASH = "237d1160ac8cd4767cf5b217dda3a5f6"
-BOT_TOKEN = "5989647611:AAFF-u4aKBW2BXfnKVm1y0WOOGNMHJpooTc"
+BOT_TOKEN = "6228385815:AAGPdaxPutu7eaVXaFsapvcK2EFuo9wWK28"
 OWNER_ID = "6273496002"
 SUDO_ID = "6236473746"
 LUCIFER = "6242479501"
@@ -40,7 +40,7 @@ sree = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "Itz_shion_II"
+Owner = "xZc_Shion"
 repo = "https://t.me/Bonten_destroyers"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
