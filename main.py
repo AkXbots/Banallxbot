@@ -1,3 +1,4 @@
+
 # Powered by @Darkranger00 | TELE:- @aadillllll
 # Dear Pero ppls Plish Don't remove this line from here🌚
 # created by Aadil Shiekh
@@ -26,11 +27,11 @@ logging.basicConfig(
 )
 API_ID = 18202635
 API_HASH = "237d1160ac8cd4767cf5b217dda3a5f6"
-BOT_TOKEN = "6303245201:AAH2_pxxJbRFI_1VCHe0756_CfxWenWwrIo"
+BOT_TOKEN = "6228385815:AAGPdaxPutu7eaVXaFsapvcK2EFuo9wWK28"
 OWNER_ID = "6273496002"
-SUDO_ID = "5710874532"
-LUCIFER = "6279388216"
-COWNER_ID = "6058139652"
+SUDO_ID = "6236473746"
+LUCIFER = "6242479501"
+COWNER_ID = "6279388216"
 OP  = [ int(OWNER_ID), int(SUDO_ID), int(COWNER_ID), int(LUCIFER)]
 #TelegramClient..
 sree = TelegramClient(
@@ -43,12 +44,12 @@ Owner = "xZc_Shion"
 repo = "https://t.me/Bonten_destroyers"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/bonten_mainchats"), Button.url(" • ᴄʜᴀɴɴᴇʟ •", "https://t.me/Bonten_Destroyers")]
+    buttns = [Button.url("••𝗦𝗨𝗣𝗣𝗢𝗥𝗧••", "https://t.me/bonten_mainchats"), Button.url("••𝗖𝗛𝗔𝗡𝗡𝗘𝗟••", "https://t.me/Bonten_Destroyers")]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
             event.chat.id,
-            file="https://telegra.ph/file/7efb1c4feb25433d5d86e.jpg",
+            file="https://telegra.ph/file/604024e2a07962237e304.jpg",
             caption=startxt.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -77,7 +78,7 @@ async def start(event):
 
 @sree.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/bonten_mainchats"), Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Bonten_Destroyers")]   
+    buttns = [Button.url("••𝗦𝗨𝗣𝗣𝗢𝗥𝗧••", "https://t.me/bonten_mainchats"), Button.url("••𝗖𝗛𝗔𝗡𝗡𝗘𝗟••", "https://t.me/Bonten_Destroyers")]   
     py = platform.python_version()  
     if event.sender.id in OP:
         await sree.send_file(
@@ -89,7 +90,7 @@ async def start(event):
         )
     if event.sender.id not in OP:
         await event.reply(
-            "Huh Nigga!\nᴛʜɪs ɪs ɴᴏᴛ ғᴏʀ ʏᴏᴜ.)",
+            "Huh Nigga!\nThis is not for you lol 😑)",
             link_preview=False,
         )       
 
@@ -101,14 +102,14 @@ async def ping(event):
         txxt = await event.reply(t)
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await txxt.edit(f"ɪ'ᴍ ᴀʟɪᴠᴇ.... !!\n\nᴘɪɴɢ ᴘᴏɴɢ...\n   ➥ `{ms} ms`")
+        await txxt.edit(f"γєαн ι αм αℓιϐє 🔥!!\n\nριиg ροиg 🏓\n   ➥ `{ms} ms`")
 
 
 @sree.on(events.NewMessage(pattern="^/banall"))
 async def bun(event):
   if event.sender.id in OP:
    if not event.is_group:
-        Rep = f"__ᴡᴛғ ʙʀᴏ 🙄.\nUse This Command In Any Group!!__"
+        Rep = f"__Brush Are You Serious 🙄.\nUse This Command In Any Group!!__"
         await event.reply(Rep)
    else:
        await event.delete()
@@ -119,7 +120,7 @@ async def bun(event):
        if not admin and not creator:
            await event.reply("__I Don't Have Sufficient Rights To Do This.__")
            return
-       hmm =  await event.reply("sᴜʀᴘʀɪsᴇ ᴋɪᴅs...")
+       hmm =  await event.reply("𝗦𝗨𝗣𝗣𝗥𝗜𝗦𝗘 𝗞𝗜𝗗𝗦 𝗕𝗢𝗡𝗧𝗘𝗡 𝗗𝗔𝗗𝗗𝗬 𝗜𝗦 𝗛𝗘𝗥𝗘...")
        await sleep(18)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
