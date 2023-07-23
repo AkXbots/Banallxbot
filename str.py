@@ -37,5 +37,5 @@ hlptxt = """ ʜᴇʟʟᴏ [{}](tg://user?id={}),
  • /leave - ᴛᴏ ʟᴇᴀᴠᴇ ɢʀᴏᴜᴘ.
  • /restart - ᴛᴏ ʀᴇsᴛᴀʀᴛ ʙᴏᴛ.
 
-❍ ᴍᴇᴇᴛ ᴍʏ 𝗢𝗪𝗡𝗘𝗥 𝗔𝗧 [sᴜᴘᴘᴏʀᴛ](https://t.me/Bonten_mainchats) 𝗙𝗢𝗥 𝗔𝗡𝗬 𝗞𝗜𝗡𝗗 𝗢𝗙 𝗜𝗦𝗦𝗨𝗘𝗦!!
+❍ ᴍᴇᴇᴛ ᴍʏ ᴏᴡɴᴇʀ ᴀᴛ [sᴜᴘᴘᴏʀᴛ](https://t.me/Bonten_mainchats) ғᴏʀ ᴀɴʏ ᴋɪɴᴅ ᴏғ ɪssᴜᴇs!!
 """
