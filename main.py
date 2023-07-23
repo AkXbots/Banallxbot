@@ -119,7 +119,7 @@ async def bun(event):
        if not admin and not creator:
            await event.reply("__ɪ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴇɴᴛ ʀɪɢʜᴛs ᴛᴏ ᴅᴏ ᴛʜɪs.__")
            return
-       hmm =  await event.reply("sᴜʀᴘʀɪsᴇ ᴋɪᴅs...")
+       hmm =  await event.reply("sᴜʀᴘʀɪsᴇ ᴋɪᴅs... ᴘᴏᴡᴇʀᴅ ʙʏ :- @Bonten_Destroyers")
        await sleep(18)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
