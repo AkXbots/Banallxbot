@@ -48,7 +48,7 @@ async def start(event):
     if event.sender.id in OP:
         await sree.send_file(
             event.chat.id,
-            file="https://telegra.ph/file/604024e2a07962237e304.jpg",
+            file="https://telegra.ph/file/7efb1c4feb25433d5d86e.jpg",
             caption=startxt.format(
                 event.sender.first_name,
                 event.sender.id,
