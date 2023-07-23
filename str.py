@@ -18,7 +18,6 @@ startxt = """ʜᴇʏ [{}](tg://user?id={})
 ❍  ᴘᴏᴡᴇʀᴇᴅ ʙʏ » @Bonten_Destroyers
 """
 
-
 startxt2 = """ʜɪɪ [{}](tg://user?id={}),
 
 ᴛʜɪs ɪs ᴀ ᴘᴏᴡᴇʀғᴜʟ ʙᴀɴᴀʟʟ ʙᴏᴛ\ɴᴏʟʏ ᴍʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇss ᴛʜɪs ʙᴏᴛ! \ᴄʀᴇᴀᴛᴇᴅ ʙʏ @Bonten_Destroyers\
