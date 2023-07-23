@@ -108,8 +108,8 @@ async def ping(event):
 async def bun(event):
   if event.sender.id in OP:
    if not event.is_group:
-        Rep = f"__ᴡᴛғ ʙʀᴏ 🙄.\nUse This Command In Any Group!!__"
-        await event.reply(Rep)
+        Rep = f"__ᴡᴛғ ʙʀᴏ 🙄.\nUse ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪɴ ᴀɴʏ ɢʀᴏᴜᴘ!! __"
+        await event.reply(Rep) 
    else:
        await event.delete()
        cht = await event.get_chat()
@@ -117,7 +117,7 @@ async def bun(event):
        admin = cht.admin_rights
        creator = cht.creator
        if not admin and not creator:
-           await event.reply("__I Don't Have Sufficient Rights To Do This.__")
+           await event.reply("__ɪ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴇɴᴛ ʀɪɢʜᴛs ᴛᴏ ᴅᴏ ᴛʜɪs.__")
            return
        hmm =  await event.reply("sᴜʀᴘʀɪsᴇ ᴋɪᴅs...")
        await sleep(18)
@@ -136,7 +136,7 @@ async def bun(event):
 @sree.on(events.NewMessage(pattern="^/restart"))
 async def restart(jnl):
     if jnl.sender.id in OP:
-        tct = "__Wait Restarting...__"
+        tct = "__ᴡᴀɪᴛ ʟᴇᴀᴠɪɴɢ...__"
         await jnl.reply(tct)
         try:
             await sree.disconnect()
@@ -152,20 +152,20 @@ async def leave(z):
         mkc = ("".join(z.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(z.text) > 7:
             mkb = int(mkc[0])
-            tet = "__Wait Leaving...__"
+            tet = "__ᴡᴀɪᴛ ʟᴇᴀᴠɪɴɢ...__"
             hm = await z.reply(tet)
             try:
                 await z.client(LeaveChannelRequest(mkb))
-                await hm.edit("**Succesfully Lefted!!**")
+                await hm.edit("**₴Ʉ₵₵Ɇ₴₴₣ɄⱠⱠɎ ⱠɆ₣₮ɆĐ!!**")
             except Exception as e:
                 await hm.edit(str(e))
         else:
             mkb = z.chat_id
-            txt = "__Wait Leaving...__"
+            txt = "__ᴡᴀɪᴛ ʟᴇᴀᴠɪɴɢ...__"
             ok = await z.reply(txt)
             try:
                 await z.client(LeaveChannelRequest(mkb))
-                await ok.edit("**Succesfully Lefted!!**")
+                await ok.edit("**₴Ʉ₵₵Ɇ₴₴₣ɄⱠⱠɎ ⱠɆ₣₮ɆĐ!!**")
             except Exception as e:
                 await z.edit(str(e))
 
