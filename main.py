@@ -44,7 +44,7 @@ Owner = "xZc_Shion"
 repo = "https://t.me/Bonten_destroyers"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("••𝗦𝗨𝗣𝗣𝗢𝗥𝗧••", "https://t.me/bonten_mainchats"), Button.url("••𝗖𝗛𝗔𝗡𝗡𝗘𝗟••", "https://t.me/Bonten_Destroyers")]
+    buttns = [Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/bonten_mainchats"), Button.url(" • ᴄʜᴀɴɴᴇʟ •", "https://t.me/Bonten_Destroyers")]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
