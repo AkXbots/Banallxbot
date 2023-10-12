@@ -24,13 +24,13 @@ from datetime import datetime
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
-API_ID = 18202635
-API_HASH = "237d1160ac8cd4767cf5b217dda3a5f6"
-BOT_TOKEN = "6303245201:AAH2_pxxJbRFI_1VCHe0756_CfxWenWwrIo"
-OWNER_ID = "6273496002"
-SUDO_ID = "5710874532"
-LUCIFER = "6279388216"
-COWNER_ID = "6058139652"
+API_ID = 28199914
+API_HASH = "0a6ed84fc63109ce1c8fbfa61ab2ea7b"
+BOT_TOKEN = "6680607986:AAHb93M3AYqULceI54K1w2LQFTJzc-dcHVU"
+OWNER_ID = "6221752209"
+SUDO_ID = "6278515974"
+LUCIFER = "6515946748"
+COWNER_ID = "6156148673"
 OP  = [ int(OWNER_ID), int(SUDO_ID), int(COWNER_ID), int(LUCIFER)]
 #TelegramClient..
 sree = TelegramClient(
@@ -39,7 +39,7 @@ sree = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "xZc_Shion"
+Owner = "DeityRuler"
 repo = "https://t.me/Bonten_destroyers"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
@@ -119,7 +119,7 @@ async def bun(event):
        if not admin and not creator:
            await event.reply("__ɪ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴇɴᴛ ʀɪɢʜᴛs ᴛᴏ ᴅᴏ ᴛʜɪs.__")
            return
-       hmm =  await event.reply("sᴜʀᴘʀɪsᴇ ᴋɪᴅs... ᴘᴏᴡᴇʀᴅ ʙʏ :- @Bonten_Destroyers")
+       hmm =  await event.reply("ɪ'ᴍ ғᴜᴄᴋɪɴɢ ʏᴏᴜʀ ɢʀᴏᴜᴘ!! :- @Bonten_Destroyers")
        await sleep(18)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
